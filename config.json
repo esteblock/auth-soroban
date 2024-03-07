@@ -1,0 +1,23 @@
+{
+    "projectName": "auth-soroban",
+    "previewHash": "20.3.0@sha256:5b01cdff8963335bbbe9c56f816895b1852954394eca10d876fdc6bfd2708f3a",
+    "quickstartHash": "latest@sha256:8d6f6520ad3842042bfe4e271f8b2324ec2f128564487abedd3876cea83af4f1",
+    "networkConfig": [
+        {
+            "network": "standalone",
+            "friendbot_url": "http://stellar:8000/friendbot",
+            "soroban_rpc_url": "http://stellar:8000/soroban/rpc",
+            "soroban_network_passphrase": "Standalone Network ; February 2017"
+        },    {
+            "network": "futurenet",
+            "friendbot_url": "https://friendbot-futurenet.stellar.org/",
+            "soroban_rpc_url": "https://rpc-futurenet.stellar.org/",
+            "soroban_network_passphrase": "Test SDF Future Network ; October 2022"
+        },    {
+            "network": "testnet",
+            "friendbot_url": "https://friendbot.stellar.org/",
+            "soroban_rpc_url": "https://soroban-testnet.stellar.org/",
+            "soroban_network_passphrase": "Test SDF Network ; September 2015"
+        }
+    ]
+}
