@@ -21,6 +21,9 @@ impl AdminContract {
     }
 
     pub fn admin_sum(e: Env, a: i128, b: i128) -> i128{
+        if !has_administrator(&e) {
+            panic!("not yet initialized")
+        }
         let admin = read_administrator(&e);
         admin.require_auth();
 
